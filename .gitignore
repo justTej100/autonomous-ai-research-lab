@@ -1,0 +1,169 @@
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+*_credentials.json
+service-account*.json
+
+# ==========================================
+# PYTHON
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# ==========================================
+# NODE / REACT / TYPESCRIPT
+# ==========================================
+
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.vite/
+
+*.tsbuildinfo
+
+# ==========================================
+# IDE / EDITORS
+# ==========================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# LOGS & TEMPORARY FILES
+# ==========================================
+
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ==========================================
+# DATABASES & LOCAL STORAGE
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+data/local/
+storage/
+uploads/
+
+# ==========================================
+# AI RESEARCH OUTPUTS
+# ==========================================
+
+# Generated experiment results
+research/experiments/runs/
+research/experiments/outputs/
+
+# Generated datasets and intermediate data
+research/data/raw/
+research/data/processed/
+
+# Model checkpoints and weights
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Generated artifacts
+artifacts/
+generated/
+reports/generated/
+
+# ==========================================
+# LATEX GENERATED FILES
+# ==========================================
+
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# ==========================================
+# DOCKER / LOCAL INFRASTRUCTURE
+# ==========================================
+
+docker/volumes/
+postgres-data/
+redis-data/
+minio-data/
+
+# ==========================================
+# MISCELLANEOUS
+# ==========================================
+
+.DS_Store
+*.bak
+*.old
+*.orig
